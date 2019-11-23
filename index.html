@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="minimum-scale=1, maximum-scale=1, width=device-width" 	/>    
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maquette</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <!-- Leaflet Js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- Leaflet Js -->
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <script src="https://kit.fontawesome.com/7ea283dd96.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="logo">
+				<img src="assets/img/logo.png" alt="logo">
+			</div>
+			<div class="logo">
+				<img src="assets/img/logo.png" alt="logo">
+			</div>
+			<div class="logo">
+				<img src="assets/img/logo.png" alt="logo">
+			</div>
+			<nav class="navi">
+				<ul>
+				  <li><a href="index.html#">Accueil</a></li>
+				  <li>
+				  	<a href="index.html#service">
+				  		1
+				  		<span class="decor">ère</span>
+				  	</a>
+				  </li>
+				  <li><a href="index.html#projets">Portfolio</a></li>
+				  <li><a href="index.html#anim">Animation</a></li>
+				  <li><a href="index.html#contact">Contact</a></li>
+				</ul>
+				<ul class="menu_mobile">
+					<div class="menu_burger">
+						<i class="fas fa-hamburger fa-2x"></i>
+					  <div class="dropdown-content-mobile">
+					  		<div><a href="index.html#">Accueil</a></div>
+					  		<div>
+							  	<a href="index.html#service">
+							  		1
+							  		<span class="decor">ère</span>
+							  	</a>
+					  		</div>
+							<div>
+							  	<a href="index.html#projets">Portfolio</a>
+							</div>
+							<div>
+							  	<a href="index.html#anim">Animation</a>
+							</div>
+							<div>
+							  	<a href="index.html#contact">Contact</a>
+							</div>
+					  </div>
+					</div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <img  src="assets/img/photo.jpg" alt="photoTab" style="width:100%">
+		  <div class="text">
+			  	<h1>
+				<span class="maquette">Maquette</span>: L<span class="strech">A</span> Maquette est pleine de détails! 
+			</h1>
+			  		<p>
+					Apprendre à coder? Maquette vous aide à reproduire un design !
+				</p>
+				<button class="info">
+					Encore Plus
+				</button>
+		  </div>
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="assets/img/photo1.jpg" alt="photoTab" style="width:100%">
+		</div>
+
+
+		<button class="w3-button BtnLeft" id="prev" plusSlides(-1)>&#10094;</button>
+		<button class="w3-button BtnRight" id="next"  plusSlides(1)>&#10095;</button>
+		</div>
+	</div>
+	<div class="progress-bar">
+	</div>
+	<h1 class="tittle" id="service">
+		1
+		<span class="decor">ère</span>
+		Ancre service
+	</h1>
+	<div class="line">
+	</div>
+	<p class="description">
+		Attention à toutes les détails, travaillez pour que tout soit responsive !
+	</p>
+	<div class="containerContent">
+		<div class="android">
+			<img src="assets/img/Android_robot.png" alt="android">
+		</div>
+		<div class="techno">
+			<div class="service-spec">
+				<i class="fab fa-apple fa-2x icon" aria-hidden="true"></i>
+				<div class="services-spec-block">
+					<h3 class="services-spec-titre">
+						CSS Transform
+					</h3>
+					<p class="services-spec-p">
+						Cherchez CSS transform dans un moteur de recherche.
+					</p>
+				</div>
+			</div>
+			<div class="service-spec">
+				<i class="fab fa-windows fa-2x icon"  aria-hidden="true"></i>
+				<div class="services-spec-block">
+					<h3 class="services-spec-titre">Plusieurs valeurs</h3>
+					<p class="services-spec-p">Mettez en HOVER le petit Android avec rotate et rotate 3D.
+					</p>
+				</div>
+			</div>
+			<div class="service-spec">
+				<i class="fab fa-linux fa-2x icon" aria-hidden="true"></i>
+				<div class="services-spec-block">
+					<h3 class="services-spec-titre">Respectez au mieux les proportions!</h3>
+					<p class="services-spec-p">Les bonnes proportions seront effectuées sur votre écran, utilisez les pourcentages pour que ce design soit responsive au maximum.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="projets">
+		<h1 class="title">Votre portfolio</h1>
+		<div class="line">
+		</div>
+		<p class="description">
+			Ici un exemple de présentation pour votre portfolio ! <i class="fa fa-eye eye"></i><i class="fa fa-eye eye2"></i>
+		</p>
+		<div class="tab">
+			<ul><li>Pensez</li><!--astuce de mettre des commentaire pour enlever le CSS qui crée une ligne entre les 2 li dans ce cas
+			 --><li>Au survol</li><!-- 
+			 --><li>A FAIRE</li><!--
+			 --><li>UN HOVER !
+				</li><!--
+			 -->
+			</ul>
+		</div>
+			<div class="img_container">
+				<div class="vignette">
+					<img src="assets/img/chat1.jpg" alt="portfolio1" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 1</h5>
+						<p>Chat couché</p>
+					</div>
+				</div>
+			 	<div class="vignette">
+					<img src="assets/img/chat2.jpeg" alt="portfolio2" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 2</h5>
+						<p>Regard de chaton</p>
+					</div>
+				</div>
+				<div class="vignette">
+					<img src="assets/img/chat3.jpg" alt="portfolio3" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 3</h5>
+						<p>Chat aux yeux vairons</p>
+					</div>
+				</div>
+				<div class="vignette">
+					<img src="assets/img/chat4.jpg" alt="portfolio4" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 4</h5>
+						<p>Regard de chat 2</p>
+					</div>
+					
+				</div>
+				<div class="vignette">
+					<img src="assets/img/chat5.jpg" alt="portfolio5" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 5</h5>
+						<p>Chat roux</p>
+					</div>
+				</div>
+				<div class="vignette">
+					<img src="assets/img/chat6.JPG" alt="portfolio6" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 6</h5>
+						<p>Chat endormi</p>
+					</div>
+				</div>
+				<div class="vignette">
+					<img src="assets/img/chat7.jpeg" alt="portfolio7" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 7</h5>
+						<p>Chat qui baille</p>
+					</div>
+				</div>
+				<div class="vignette">
+					<img src="assets/img/chat8.jpg" alt="portfolio8" class="portfolio_img">
+					<div class="port_description">
+						<i class="fa fa-hand-peace-o eye_icon" aria-hidden="true"></i>
+						<h5>Portfolio 8</h5>
+						<p>Chat aux yeux bleus</p>
+					</div>
+				</div>
+			</div>
+	</div>
+		<!-- Animation -->
+	<div id="anim">
+    	<h1 class="title">Animation</h1>
+    	<div class="line line_map line_anim"></div>
+    	<div class="info form-button anim_button">Lancez une animation CSS</div>
+    	<div class="forme">
+	    	<div class="triangle"></div>
+	    	<div class="carre"></div>
+	    	<div class="rond">
+	    		<i class="fa fa-eye" aria-hidden="true"></i>
+	    	</div>
+    	</div>
+    </div>
+    <!-- Map -->
+    <h1 class="title">Intégrer une MAP</h1>
+    <div class="line line_map">
+	</div>
+	<p class="description">
+		Allez sur google developpeur pour obtenir votre clé google map !
+	</p>
+	<p class="row_eye">
+		<i class="fa fa-eye eye blue"></i>
+		<i class="fa fa-eye eye2 blue"></i>
+	</p>
+	<div class="maMapbox">  
+    	<div id="mapbox-map">
+	        <div id="mapbox-map-overlay">
+	            <iframe
+	                src='https://api.mapbox.com/styles/v1/mapbox/streets-v11.html?title=true&zoomwheel=false&access_token=pk.eyJ1IjoiYWxpdXdheW5lIiwiYSI6ImNrMHh4emg0aDA2eGEzZG43OGp2OXdqbzIifQ.zp49ONF6Qi0ixGaUb4S8vQ#15/37.771/-122.436' width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="">
+	            </iframe> 
+	        </div>
+	    </div> 
+	    <div class="contact">   
+	        <article class="contact-info">
+	           	<h2 class="center-form">Contact Info</h2>
+	            <h4 class="center-form">Maquette GRPG</h4>
+	                <p>5 Rue de Copenhague</p>
+	                <p>93290 Tremblay-en-France</p>
+	                <p><span>Tel:</span> 01 44 64 85 85</p>
+	        </article> 
+	        <form>
+	            <input type="text" name="name" placeholder=" Nom" class="contact-form">
+	            <input type="email" name="email" placeholder="email" class="contact-form">
+	            <input type="text" name="subject" placeholder=" Sujet" class="contact-form">
+	            <textarea rows="6" name="message" placeholder=" Message" class="contact-form"></textarea>
+	            <button class="info form-button">Contactez-moi</button>
+	        </form>
+	    </div>   
+	</div>     
+	<!-- <script async defer
+	    src="pk.eyJ1IjoiYWxpdXdheW5lIiwiYSI6ImNrMHh4emg0aDA2eGEzZG43OGp2OXdqbzIifQ.zp49ONF6Qi0ixGaUb4S8vQ">
+	</script> -->    
+	    
+	
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
